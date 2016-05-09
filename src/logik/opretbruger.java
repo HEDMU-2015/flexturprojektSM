@@ -71,7 +71,7 @@ public class opretbruger {
 		design.add(userTextField6, 1, 8);
 		
 		Label kodeord = new Label("Kodeord");
-		design.add(email, 0, 9);
+		design.add(kodeord, 0, 9);
 
 		TextField userTextField7 = new TextField();
 		design.add(userTextField7, 1, 9);
