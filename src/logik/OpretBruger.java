@@ -11,7 +11,7 @@ import javafx.scene.text.Font;
 import javafx.stage.Stage;
 
 
-public class opretbruger {
+public class OpretBruger {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -43,41 +43,47 @@ public class opretbruger {
 		TextField userTextField2 = new TextField();
 		design.add(userTextField2, 1, 3);
 		
+		Label cpr = new Label("CPR. nr.");
+		design.add(cpr, 0, 4);
+
+		TextField userTextField0 = new TextField();
+		design.add(userTextField0, 1, 4);
+		
 		Label adresse = new Label("Adresse");
-		design.add(adresse, 0, 4);
+		design.add(adresse, 0, 5);
 
 		TextField userTextField3 = new TextField();
-		design.add(userTextField3, 1, 4);
+		design.add(userTextField3, 1, 5);
 		
 		Label postnummer = new Label("Postnr");
-		design.add(postnummer, 0, 5);
+		design.add(postnummer, 0, 6);
 
 		TextField userTextField4 = new TextField();
-		design.add(userTextField4, 1, 5);
+		design.add(userTextField4, 1, 6);
 		
 		Label email = new Label("E-mail");
-		design.add(email, 0, 6);
+		design.add(email, 0, 7);
 
 		TextField userTextField5 = new TextField();
-		design.add(userTextField5, 1, 6);
+		design.add(userTextField5, 1, 7);
 		
 		Label loginoplysninger = new Label("Loginoplysninger");
-		design.add(loginoplysninger, 0, 7);
+		design.add(loginoplysninger, 0, 9);
 		
 		Label tlfnr = new Label("Tlf. nr.");
-		design.add(tlfnr, 0, 8);
+		design.add(tlfnr, 0, 10);
 
 		TextField userTextField6 = new TextField();
-		design.add(userTextField6, 1, 8);
+		design.add(userTextField6, 1, 10);
 		
 		Label kodeord = new Label("Kodeord");
-		design.add(kodeord, 0, 9);
+		design.add(kodeord, 0, 11);
 
 		TextField userTextField7 = new TextField();
-		design.add(userTextField7, 1, 9);
+		design.add(userTextField7, 1, 11);
 		
 		Button btn6 = new Button("Opret bruger");
-		design.add(btn6, 0, 11);
+		design.add(btn6, 0, 13);
 		
 		
 
