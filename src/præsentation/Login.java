@@ -1,4 +1,4 @@
-package logik;
+package præsentation;
 
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;

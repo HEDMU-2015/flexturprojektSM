@@ -1,4 +1,4 @@
-package logik;
+package præsentation;
 
 public class SeBrugerhistorik {
 
