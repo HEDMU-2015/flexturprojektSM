@@ -51,15 +51,13 @@ public class Login {
 		hbBtn.setAlignment(Pos.BOTTOM_RIGHT);
 		hbBtn.getChildren().add(logknap);
 		grid.add(hbBtn, 1, 4);
+		
+		logknap.setOnAction(e -> new Menu(null));
 
-		final Text actiontarget = new Text();
-		grid.add(actiontarget, 1, 6);
+		
 
 		Scene scene = new Scene(grid, 300, 275);
 		myStage.setScene(scene);
 		myStage.show();
 	}
-
-}
-
-;
+};
