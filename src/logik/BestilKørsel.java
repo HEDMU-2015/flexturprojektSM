@@ -68,7 +68,7 @@ public class BestilKørsel {
 		DatePicker kalendervalg = new DatePicker();
 		grid.add(kalendervalg, 1, 3);
 
-		Label antal = new Label("Antal passagerere");
+		Label antal = new Label("Antal passagerere:");
 		grid.add(antal, 0, 4);
 
 		final ComboBox passager = new ComboBox();
@@ -76,7 +76,7 @@ public class BestilKørsel {
 		grid.add(passager, 1, 4);
 
 		ToggleGroup group = new ToggleGroup();
-		RadioButton rb1 = new RadioButton("Afgangstid");
+		RadioButton rb1 = new RadioButton("Afgangstid:");
 		grid.add(rb1, 2, 3);
 		rb1.setToggleGroup(group);
 		rb1.setSelected(true);
@@ -85,7 +85,7 @@ public class BestilKørsel {
 		tidankomst.getItems().addAll("00:00", "01:00", "02:00", "03:00", "04:00", "05:00", "06:00");
 		grid.add(tidankomst, 3, 3);
 
-		RadioButton rb2 = new RadioButton("Ankomsttid");
+		RadioButton rb2 = new RadioButton("Ankomsttid:");
 		rb2.setToggleGroup(group);
 		grid.add(rb2, 2, 4);
 

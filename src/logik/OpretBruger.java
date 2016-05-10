@@ -35,31 +35,31 @@ public class OpretBruger {
 		TextField userTextField1 = new TextField();
 		design.add(userTextField1, 1, 2);
 
-		Label efternavn = new Label("Efternavn");
+		Label efternavn = new Label("Efternavn:");
 		design.add(efternavn, 0, 3);
 
 		TextField userTextField2 = new TextField();
 		design.add(userTextField2, 1, 3);
 
-		Label cpr = new Label("CPR. nr.");
+		Label cpr = new Label("CPR. nr.:");
 		design.add(cpr, 0, 4);
 
 		TextField userTextField0 = new TextField();
 		design.add(userTextField0, 1, 4);
 
-		Label adresse = new Label("Adresse");
+		Label adresse = new Label("Adresse:");
 		design.add(adresse, 0, 5);
 
 		TextField userTextField3 = new TextField();
 		design.add(userTextField3, 1, 5);
 
-		Label postnummer = new Label("Postnr");
+		Label postnummer = new Label("Postnr.:");
 		design.add(postnummer, 0, 6);
 
 		TextField userTextField4 = new TextField();
 		design.add(userTextField4, 1, 6);
 
-		Label email = new Label("E-mail");
+		Label email = new Label("E-mail:");
 		design.add(email, 0, 7);
 
 		TextField userTextField5 = new TextField();
@@ -68,13 +68,13 @@ public class OpretBruger {
 		Label loginoplysninger = new Label("Loginoplysninger");
 		design.add(loginoplysninger, 0, 9);
 
-		Label tlfnr = new Label("Tlf. nr.");
+		Label tlfnr = new Label("Tlf. nr.:");
 		design.add(tlfnr, 0, 10);
 
 		TextField userTextField6 = new TextField();
 		design.add(userTextField6, 1, 10);
 
-		Label kodeord = new Label("Kodeord");
+		Label kodeord = new Label("Kodeord:");
 		design.add(kodeord, 0, 11);
 
 		TextField userTextField7 = new TextField();
