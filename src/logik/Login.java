@@ -1,6 +1,5 @@
 package logik;
 
-
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
@@ -34,7 +33,7 @@ public class Login {
 		scenetitle.setFont(Font.font("Arial", FontWeight.NORMAL, 16));
 		grid.add(scenetitle, 0, 0, 2, 1);
 
-		Label email = new Label("E-mail:");
+		Label email = new Label("Tlf. nr.:");
 		grid.add(email, 0, 1);
 
 		TextField userTextField = new TextField();
@@ -51,10 +50,8 @@ public class Login {
 		hbBtn.setAlignment(Pos.BOTTOM_RIGHT);
 		hbBtn.getChildren().add(logknap);
 		grid.add(hbBtn, 1, 4);
-		
-		logknap.setOnAction(e -> new Menu(null));
 
-		
+		logknap.setOnAction(e -> new Menu(null));
 
 		Scene scene = new Scene(grid, 300, 275);
 		myStage.setScene(scene);
