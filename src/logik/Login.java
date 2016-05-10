@@ -63,7 +63,7 @@ public class Login extends Application {
             @Override
             public void handle(ActionEvent e) {
                 actiontarget.setFill(Color.FIREBRICK);
-                actiontarget.setText("Sign in button pressed");
+                actiontarget.setText("Forkert login. Prøv igen..");
             }
         });
 

@@ -14,8 +14,7 @@ import javafx.stage.Stage;
 public class OpretBruger {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	
 		Stage myStage = new Stage();
 		myStage.setTitle("Opret bruger");
 
