@@ -47,7 +47,7 @@ public class SeBrugerhistorik {
 		navn.setMinWidth(50);
 		navn.setCellValueFactory(new PropertyValueFactory<Person, String>("navn"));
 		
-		TableColumn adresse = new TableColumn("Adresse");
+		TableColumn adresse = new TableColumn("Adresse fra");
 		adresse.setMinWidth(50);
 		adresse.setCellValueFactory(new PropertyValueFactory<Person, String>("adresse"));
 		
@@ -63,7 +63,7 @@ public class SeBrugerhistorik {
 		ankomsttil.setMinWidth(50);
 		ankomsttil.setCellValueFactory(new PropertyValueFactory<Person, String>("ankomsttil"));
 		
-		TableColumn adresse2 = new TableColumn("Adresse");
+		TableColumn adresse2 = new TableColumn("Adresse til");
 		adresse2.setMinWidth(50);
 		adresse2.setCellValueFactory(new PropertyValueFactory<Person, String>("adresse2"));
 		
